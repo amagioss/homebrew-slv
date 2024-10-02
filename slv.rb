@@ -5,20 +5,20 @@
 class Slv < Formula
   desc ""
   homepage "https://oss.amagi.com/slv"
-  version "0.5.7"
+  version "0.5.8"
 
   on_macos do
     on_intel do
-      url "https://github.com/amagioss/slv/releases/download/v0.5.7/slv_darwin_amd64.zip"
-      sha256 "18d8861b4ef3eef0cf54f99686a830a21ea59f2e0928fe92768a186223beb637"
+      url "https://github.com/amagioss/slv/releases/download/v0.5.8/slv_darwin_amd64.zip"
+      sha256 "6ce030f085eef9b89aab6f86d0547b564f5e52029efa2590a71998363d7b7efa"
 
       def install
         bin.install "slv"
       end
     end
     on_arm do
-      url "https://github.com/amagioss/slv/releases/download/v0.5.7/slv_darwin_arm64.zip"
-      sha256 "a490710c1aad193a70d2db65770beba3664bc16c80b1c7f3023252200a637a24"
+      url "https://github.com/amagioss/slv/releases/download/v0.5.8/slv_darwin_arm64.zip"
+      sha256 "8902a0b1e149117cf2c8cb7a04711006c660ff3a7d134a8408f343f6ae766e7a"
 
       def install
         bin.install "slv"
@@ -29,8 +29,8 @@ class Slv < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/amagioss/slv/releases/download/v0.5.7/slv_linux_amd64.zip"
-        sha256 "cc2218210c85fdba162ccc3dbc702282d59adb0d48063efcce8067553e5b568e"
+        url "https://github.com/amagioss/slv/releases/download/v0.5.8/slv_linux_amd64.zip"
+        sha256 "fa68610ad794d1cc064682fc0d17fbd98bd64ad6a366dd3b277a52533b18b9a5"
 
         def install
           bin.install "slv"
@@ -39,8 +39,8 @@ class Slv < Formula
     end
     on_arm do
       if !Hardware::CPU.is_64_bit?
-        url "https://github.com/amagioss/slv/releases/download/v0.5.7/slv_linux_arm.zip"
-        sha256 "a79a6f806707d22611845ff591cfe2f41dfdb7ec0a7790c75bba3376b4f5e060"
+        url "https://github.com/amagioss/slv/releases/download/v0.5.8/slv_linux_arm.zip"
+        sha256 "28402076b6f2a3c9c0afd913aae1f56ebcac775e956557ffd46bf18905396e1a"
 
         def install
           bin.install "slv"
@@ -49,8 +49,8 @@ class Slv < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/amagioss/slv/releases/download/v0.5.7/slv_linux_arm64.zip"
-        sha256 "75dae1579624c4099d3309cc19d9bce5e3be811b04ec5dfe39c3109ef8924a50"
+        url "https://github.com/amagioss/slv/releases/download/v0.5.8/slv_linux_arm64.zip"
+        sha256 "9ae98c9e1ab8a770da44fadb5298c7da34c9d93380b36c9527613ccb997b040b"
 
         def install
           bin.install "slv"
