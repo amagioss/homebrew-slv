@@ -6,25 +6,25 @@ cask "slv" do
     end
   end
 
-  version "0.23.9"
+  version "0.23.11"
 
   on_macos do
     on_arm do
-      sha256 "833a819f8d461c83f238eec6ea1c8fbe014961a6388186f015db8ce8c70f041a"
+      sha256 "d07187f885c5de97a9dde69ece8b1e86f0954b59b503bf4da254aa74a392ed2c"
       url "https://github.com/amagioss/slv/releases/download/v#{version}/slv_darwin_arm64.zip"
     end
     on_intel do
-      sha256 "b11cac4e3e501fb61a5957268d0801b312ba36ef3cb2ca1562ec27ef918f83d4"
+      sha256 "229e028ad27633430a7dea34f4672aec3b0b65cc9199ddbde0b793cec32c6b02"
       url "https://github.com/amagioss/slv/releases/download/v#{version}/slv_darwin_amd64.zip"
     end
   end
   on_linux do
     on_arm do
-      sha256 "91917bb4204d4ea22f37c83181544d2086bb2025da72b70cbeaa6ab2e0a2a0e4"
+      sha256 "91d9feb5ae91d40f6a293891166f685d7149af3dabe773b287b37d0bfc9609fe"
       url "https://github.com/amagioss/slv/releases/download/v#{version}/slv_linux_arm64.zip"
     end
     on_intel do
-      sha256 "46b052015f0d97678ca5064774b3534758ab1fdd084987318fcfb20f97b1553a"
+      sha256 "27d838d6f061f5404fe470ca030e90bbb43c59cf77878c28a841da40d6cb14b7"
       url "https://github.com/amagioss/slv/releases/download/v#{version}/slv_linux_amd64.zip"
     end
   end
